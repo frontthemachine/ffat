@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/frontthemachine/ffat/issues"
   },
-  "homepage": "https://github.com/frontthemachine/ffat#readme"
+  "homepage": "https://github.com/frontthemachine/ffat#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^7.4.1"
+  }
 }

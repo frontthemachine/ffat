@@ -19,12 +19,27 @@ function getUser(res, req, err) {
   return { ..yourResponse };
 }
 ```
+auth mapping
+
+```typescript
+@RequestAuthenticatedMapping('/restricted/somedata', 'GET', 'USR_STD')
+function getSomeData(res, req, err) {
+  // do some stuff
+  return { ..yourResponse };
+}
+
+@RequestAuthenticatedMapping('/restricted/someadmindata', 'GET', ['USR_STD', 'USR_ADM'])
+function getAdminData(res, req, err) {
+  // do some stuff
+  return { ..yourResponse };
+}
+```
 
 ## Todo
 * Token Creation and validation
 * Configurations
-** Role definitions
-** Token and security personalization
+    * Role definitions
+    * Token and security personalization
 * Default User Interface
 * Environment startup
 * RequestMapping Annotation
