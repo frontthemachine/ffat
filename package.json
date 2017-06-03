@@ -1,0 +1,24 @@
+{
+  "name": "ffat",
+  "version": "0.1.0",
+  "description": "Create and manage your stateless API with ts and node easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontthemachine/ffat.git"
+  },
+  "keywords": [
+    "stateless api",
+    "rest api",
+    "api framework"
+  ],
+  "author": "frontthemachine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frontthemachine/ffat/issues"
+  },
+  "homepage": "https://github.com/frontthemachine/ffat#readme"
+}
