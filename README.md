@@ -1,7 +1,7 @@
 # FFAT
 Create and manage your stateless API with ts and node easily
 
-##Examples
+## Examples
 ```typescript
 const ffat = require('ffat')
 
