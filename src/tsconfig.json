@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types"
+        ],
+        "noImplicitAny": true,
+        "allowUnreachableCode": false,
+        "noImplicitReturns": true,
+        "pretty": true,
+        "target": "es6",
+        "module": "commonjs"
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

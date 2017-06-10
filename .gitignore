@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Output of typescript compiler
+src/**/*.js
+
+# Visual Studio Code configuration
+.vscode
